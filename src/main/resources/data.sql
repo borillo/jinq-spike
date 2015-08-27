@@ -1,0 +1,22 @@
+INSERT INTO Master (id, name) VALUES (1, 'Master 1');
+INSERT INTO Master (id, name) VALUES (2, 'Master 2');
+INSERT INTO Master (id, name) VALUES (3, 'Master 3');
+INSERT INTO Master (id, name) VALUES (4, 'Master 4');
+INSERT INTO Master (id, name) VALUES (5, 'Master 5');
+INSERT INTO Master (id, name) VALUES (6, 'Master 6');
+INSERT INTO Master (id, name) VALUES (7, 'Master 7');
+INSERT INTO Master (id, name) VALUES (8, 'Master 8');
+INSERT INTO Master (id, name) VALUES (9, 'Master 9');
+INSERT INTO Master (id, name) VALUES (10, 'Master 10');
+
+INSERT INTO Detail (id, description, master_id) VALUES (1, 'Master 1 - Detail 1', 1);
+INSERT INTO Detail (id, description, master_id) VALUES (2, 'Master 1 - Detail 2', 1);
+INSERT INTO Detail (id, description, master_id) VALUES (3, 'Master 2 - Detail 1', 2);
+INSERT INTO Detail (id, description, master_id) VALUES (4, 'Master 3 - Detail 3', 3);
+INSERT INTO Detail (id, description, master_id) VALUES (5, 'Master 4 - Detail 4', 4);
+INSERT INTO Detail (id, description, master_id) VALUES (6, 'Master 5 - Detail 5', 5);
+INSERT INTO Detail (id, description, master_id) VALUES (7, 'Master 6 - Detail 6', 6);
+INSERT INTO Detail (id, description, master_id) VALUES (8, 'Master 7 - Detail 7', 7);
+INSERT INTO Detail (id, description, master_id) VALUES (9, 'Master 8 - Detail 8', 8);
+INSERT INTO Detail (id, description, master_id) VALUES (10, 'Master 9 - Detail 9', 9);
+INSERT INTO Detail (id, description, master_id) VALUES (11, 'Master 10 - Detail 10', 10);
